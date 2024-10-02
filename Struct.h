@@ -57,7 +57,7 @@ protected:
   sBITMAPINFOHEADER* iHeader = nullptr;
   std::string fileName;
   size_t lenBYTE = 0;
-  size_t widthBYTE = 0; // Число бай в строке с учётом "гэпа".
+  size_t widthBYTE = 0; // Число байт в строке с учётом "гэпа".
   size_t gap = 0;
 
   bool openBMP(const std::string& fileName)
